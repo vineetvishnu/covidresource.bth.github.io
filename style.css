@@ -1,8 +1,8 @@
-body {
+html,body {
     max-height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: azure;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
     color: black;
     font-size: 1.1em;
     line-height: 1.5;
@@ -37,7 +37,13 @@ h2{
     margin: 0;
     padding: 1em 0;
   }
-
+.header{
+    max-height: 280px;
+    max-width: 100%;
+    background: skyblue;
+    padding-bottom: 10px;
+    
+}
   .btn {
     display:inline-block;
     background-color: whitesmoke;
@@ -49,7 +55,8 @@ h2{
     margin: 4px 2px;
     border-radius: 7px;
     cursor: pointer;
-      max-height: 100%;
+    max-height: auto;
+    max-width: auto;
   }
 
   .btn:hover {
@@ -57,13 +64,7 @@ h2{
     color: white;
   }
 
-  #showcase {
-    min-height: 250px;
-      background: skyblue;
-    color: skyblue;
-    text-align: left;
-  }
-
+ 
   
 
 .image img{
@@ -76,14 +77,18 @@ h2{
       max-width:24%;
       border-radius: 10px;
       margin: 40px;
-      box-shadow: 2px 2px 10px black;
+      border-style: solid;
+     border-color:darkgrey;
     padding: 30px 20px 30px 14px;
   }
 .card:hover{
-    box-shadow: 2px 3px 13px black;
+    box-shadow: 2px 3px 11px black;
+    cursor:text;
 }
 .card-title{
     text-align: center;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .card-content{
@@ -94,45 +99,43 @@ h2{
     background: #000066;
     color:azure;
     width: 100%;
+    min-width: 300px;
     height: auto;
     padding: 40px 20px 10px 10px;
 }
 
 .footer-content{
-    
     font-family: "Open Sans";
     max-height: auto;
     display: flex;
-    text-align: center;
-    
+    text-align: center; 
 }
-.footer.footer-content .footer-section{
+.footer-section{
     flex: 2;
     padding: 50px;
     text-align: center;
-    color:blue;
-    
+    color:blue;   
 }
-
-   
-.a{
-    color: blue;
-}
-.a:visited {
-    color: blue;
-}
-.footer-bottom{
-    position:fixed;
+.footer-bottom{ 
     left: 0;
     bottom: 0;
-    max-width: 100%;
+    min-width: 300px;
     background: grey;
     color:darkgrey;
     height: 30px;
     text-align: center;
 }
-@media only screen and (max-width: 620px) {
+
+.a{
+    color: white;
+}
+.a:visited {
+    color: blue;
+}
+
+@media only screen and (max-width:300px ) {
   /* For mobile phones: */
-.main, .footer {
-    width: 100%;
+.main {
+    min-width: 300px;
   }
+}

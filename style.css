@@ -12,21 +12,21 @@ html,body {
 
 
 h1{
-    line-height:0.1;
+    line-height: 0.1;
     text-align: center;
     color: #0C090A;
     font-style:normal;
     padding-top: 80px;
     padding-bottom: 1px;
     font-family:"Times New Roman";
-    font-size: 50;
+    font-size: 80;
 }
 h2{
     text-align: center;
     color: #0C090A;
     font-style: normal;
-    font-size: 22;
-    font-family: "Georgia";
+    font-size: 20;
+    font-family: cursive;
 }
   h3 {
     margin: 0;
@@ -37,14 +37,17 @@ h2{
     margin: 0;
     padding: 1em 0;
   }
-
 .header{
-    max-height: 280px;
-    max-width: 100%;
+    min-height: 2vh;
+    min-width: 2vw;
     background: skyblue;
     padding-bottom: 10px;
+    
 }
-
+.main{
+    padding-left: 60px;
+    
+}
   .btn {
     display:inline-block;
     background-color: whitesmoke;
@@ -56,36 +59,35 @@ h2{
     margin: 4px 2px;
     border-radius: 7px;
     cursor: pointer;
-    max-height: auto;
-    max-width: auto;
   }
 
   .btn:hover {
     background: grey;
     color: white;
   }
+
+ 
+  
+
 .image img{
     max-width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-.card{
+  .card{
       display:inline-block;
-    height: 380px;
-      width: 280px;
+      width:28vw;
+      height: 60vh;
       border-radius: 10px;
-      margin: 40px;
+      margin: 80px;
       border-style: solid;
      border-color:darkgrey;
-    padding: 30px 20px 30px 14px;
+    padding: 20px 20px 20px 20px;
   }
-
 .card:hover{
     box-shadow: 2px 3px 11px black;
     cursor:text;
 }
-
 .card-title{
     text-align: center;
     max-height: 100%;
@@ -100,7 +102,7 @@ h2{
     background: #000066;
     color:azure;
     width: 100%;
-    min-width: 300px;
+    min-width: 30px;
     height: auto;
     padding: 40px 20px 10px 10px;
 }
@@ -111,35 +113,19 @@ h2{
     display: flex;
     text-align: center; 
 }
-
 .footer-section{
     flex: 2;
-    padding: 50px;
+    padding: 2vw;
     text-align: center;
     color:blue;   
 }
-
 .footer-bottom{ 
     left: 0;
     bottom: 0;
-    width:800px;
-    min-width: 300px;
+    min-width: 30vw;
     background: grey;
     color:darkgrey;
     height: 30px;
     text-align: center;
 }
 
-.a{
-    color: white;
-}
-.a:visited {
-    color: blue;
-}
-
-@media only screen and (max-width:300px ) {
-  /* For mobile phones: */
-.main, .footer-bottom, .footer-content, . {
-    min-width: 300px;
-  }
-}

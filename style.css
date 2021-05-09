@@ -29,8 +29,9 @@ h2{
     font-family: cursive;
 }
 .contact-us{
-    padding-top: 2%;
-    padding-left: 85%
+    padding-top: 1%;
+    padding-left: 90%;
+    padding-bottom: 4%;
 }
 .linked-in{
     padding-left:2%;
@@ -63,6 +64,7 @@ h3 {
     padding: 16px;
     text-align: center;
     border-style: solid;
+    border-color: darkgrey;
     margin: 0vw 0vh;
     border-radius: 7px;
     cursor: pointer;
@@ -73,10 +75,7 @@ h3 {
     color: white;
   }
 
-.main{
-    margin-left: 2%;
-    margin-right: 2%;
-}
+
   
 
 .image img{
@@ -86,22 +85,22 @@ h3 {
 }
   .card{
       display:inline-block;
-      width:25vw;
-      height: 80vh;
+      width:45%;
+      height:30%;
       border-radius: 10px;
-      margin: 1.2vw;
+      margin-left:25%;
+      margin-bottom:20%;
       border-style: solid;
      border-color:darkgrey;
     padding: 20px 20px 20px 20px;
   }
 .card:hover{
-    box-shadow: 2px 3px 11px black;
+    box-shadow: 2px 3px 11px grey;
     cursor:text;
 }
 .card-title{
-    text-align: center;
-    max-height: 100%;
-    max-width: 100%;
+    align-self: centre; 
+   
 }
 
 .card-content{
@@ -135,7 +134,12 @@ h3 {
     min-width: 30vw;
     background: grey;
     color:darkgrey;
-    height: 30px;
+    height: 8vh;
     text-align: center;
 }
-
+.useful-links .a{
+    color: blue;
+}
+.useful-links .a:visited{
+    color: blue;
+}

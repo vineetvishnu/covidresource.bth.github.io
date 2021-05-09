@@ -72,7 +72,7 @@ h2{
 
 .card{
       display:inline-grid;
-      max-width:24%;
+      min-width: 300px;
       border-radius: 10px;
       margin: 40px;
       border-style: solid;

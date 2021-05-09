@@ -71,7 +71,7 @@ h2{
 }
 
 .card{
-      display:inline-grid;
+      display:inline-block;
     height: 380px;
       width: 280px;
       border-radius: 10px;
@@ -139,7 +139,7 @@ h2{
 
 @media only screen and (max-width:300px ) {
   /* For mobile phones: */
-.main {
+.main, .footer-bottom, .footer-content, . {
     min-width: 300px;
   }
 }

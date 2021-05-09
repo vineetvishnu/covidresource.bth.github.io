@@ -121,8 +121,7 @@ h2{
     height: 30px;
     text-align: center;
 }
-footer-section :hover{
-    color:deepskyblue;
-    background: blue;
-    text-shadow: 2px 3px 13px black;
+.footer-section:hover{
+    text-shadow: 0.2px 0.1px 1px white;
 }
+

@@ -98,7 +98,7 @@ h2{
 }
 
 .footer-content{
-    border: 1px solid red;
+    
     font-family: "Open Sans";
     height: auto;
     display: flex;
@@ -121,7 +121,8 @@ h2{
     height: 30px;
     text-align: center;
 }
-footer-section useful-links:hover{
+footer-section :hover{
     color:deepskyblue;
     background: blue;
+    text-shadow: 2px 3px 13px black;
 }

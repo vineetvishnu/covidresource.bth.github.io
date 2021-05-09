@@ -28,7 +28,15 @@ h2{
     font-size: 20;
     font-family: cursive;
 }
-  h3 {
+.contact-us{
+    padding-top: 2%;
+    padding-left: 85%
+}
+.linked-in{
+    padding-left:2%;
+    padding-right:2%;
+}
+h3 {
     margin: 0;
     padding: 20px;
   }
@@ -39,15 +47,14 @@ h2{
   }
 .header{
     min-height: 2vh;
-    min-width: 2vw;
+    min-width: 8vw;
     background: skyblue;
     padding-bottom: 10px;
     
 }
-.main{
-    padding-left: 60px;
+
     
-}
+
   .btn {
     display:inline-block;
     background-color: whitesmoke;
@@ -56,7 +63,7 @@ h2{
     padding: 16px;
     text-align: center;
     border-style: solid;
-    margin: 4px 2px;
+    margin: 0vw 0vh;
     border-radius: 7px;
     cursor: pointer;
   }
@@ -66,7 +73,10 @@ h2{
     color: white;
   }
 
- 
+.main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
   
 
 .image img{
@@ -76,10 +86,10 @@ h2{
 }
   .card{
       display:inline-block;
-      width:28vw;
-      height: 60vh;
+      width:25vw;
+      height: 80vh;
       border-radius: 10px;
-      margin: 80px;
+      margin: 1.2vw;
       border-style: solid;
      border-color:darkgrey;
     padding: 20px 20px 20px 20px;
@@ -111,13 +121,13 @@ h2{
     font-family: "Open Sans";
     max-height: auto;
     display: flex;
+    color: white;
     text-align: center; 
 }
 .footer-section{
     flex: 2;
     padding: 2vw;
-    text-align: center;
-    color:blue;   
+    text-align: center;   
 }
 .footer-bottom{ 
     left: 0;

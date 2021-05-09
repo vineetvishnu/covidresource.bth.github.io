@@ -37,13 +37,14 @@ h2{
     margin: 0;
     padding: 1em 0;
   }
+
 .header{
     max-height: 280px;
     max-width: 100%;
     background: skyblue;
     padding-bottom: 10px;
-    
 }
+
   .btn {
     display:inline-block;
     background-color: whitesmoke;
@@ -63,16 +64,13 @@ h2{
     background: grey;
     color: white;
   }
-
- 
-  
-
 .image img{
     max-width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-  .card{
+
+.card{
       display:inline-grid;
       max-width:24%;
       border-radius: 10px;
@@ -81,10 +79,12 @@ h2{
      border-color:darkgrey;
     padding: 30px 20px 30px 14px;
   }
+
 .card:hover{
     box-shadow: 2px 3px 11px black;
     cursor:text;
 }
+
 .card-title{
     text-align: center;
     max-height: 100%;
@@ -110,15 +110,18 @@ h2{
     display: flex;
     text-align: center; 
 }
+
 .footer-section{
     flex: 2;
     padding: 50px;
     text-align: center;
     color:blue;   
 }
+
 .footer-bottom{ 
     left: 0;
     bottom: 0;
+    width:800px;
     min-width: 300px;
     background: grey;
     color:darkgrey;

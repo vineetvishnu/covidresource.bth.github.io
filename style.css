@@ -1,33 +1,66 @@
 html,body {
     max-height: 100%;
-    margin: 0%;
+    margin:0; padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
     color: black;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: left;
+	background: #B6B6BE;
   }
+/***Navigation***/
 
-
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #201A17;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    border:solid;
+    border-top-width: 0;
+    border-right-width: 0.1;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-right-color: white;
+    color: floralwhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover:not(.active){
+    background-color: #3E3936;
+}
+.active{
+    background-color: #BFA69B;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolatawdth,wght@147.6,394&display=swap');
 
 h1{
-    line-height: 0.1;
-    text-align: center;
-    color: #0C090A;
+    line-height: 0px;
+    text-align: center; 
     font-style:normal;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 1px;
-    font-family:"Times New Roman";
-    font-size: 80;
+    font-family: Inconsolata, monospace;
+	font-size: 70;
 }
 h2{
     text-align: center;
-    color: #0C090A;
+    color:white;
     font-style: normal;
     font-size: 20;
     font-family: cursive;
 }
+
+/**Social links**/
+
 .contact-us{
     padding-top: 1%;
     padding-left: 90%;
@@ -46,85 +79,109 @@ h3 {
     margin: 0;
     padding: 1em 0;
   }
+/**Header**/
+
+
 .header{
+	color: white;
+	text-shadow: 8px 8px 8px 8px;
     min-height: 2vh;
     min-width: 8vw;
-    background: skyblue;
-    padding-bottom: 10px;
-    
+	background-image: url(Covidearth.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: centre;
+    overflow: hidden;
 }
 
-    
+/**Card Designing**/
 
-  .btn {
-    display:inline-block;
-    background-color: whitesmoke;
+.grid{
+	margin: 10px;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.grid > article{
+	background:#ECEEEB;
+	border: none;
+	box-shadow: 2px 2px 6px 0px;
+	border-radius: 4px;
+	text-align: center;
+	width: 250px;
+	transition: transform 0.35s;
+}
+
+.grid> article:hover{
+	transform: translateY(8px);
+	box-shadow: 2px 2px 16px 2px;
+	cursor: text;
+}
+.grid> article img{
+	width: 100%;
+	max-height: 1010px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	opacity: 1;
+	border-bottom-color: black;
+	
+}
+.grid> article img:hover{
+}
+.card-content{
+	padding: 0 20px 20px;
+}
+.card-content> h3{
+	
+	font-family: Algeria, serif;
+	font-style: italic;
+}
+  .card-content> button {
+    margin-bottom: auto;
+    background-color: #DAAEBA;
     color: black;
-    text-decoration: none;
-    padding: 16px;
+    padding: 6px;
+	width: 200px;
     text-align: center;
-    border-style: solid;
-    border-color: darkgrey;
-    margin: 0vw 0vh;
-    border-radius: 7px;
+    border-style: none;
+    border-radius: 4px;
     cursor: pointer;
   }
 
-  .btn:hover {
-    background: grey;
+  .card-content> button:hover {
+    background: #EB2258;
     color: white;
   }
 
+/***Footer***/
 
-  
-
-.image img{
-    max-width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-  .card{
-      display:inline-table;
-      width:25%;
-      height:30%;
-      border-radius: 10px;
-      margin-left:4%;
-      margin-bottom:2%;
-      border-style: solid;
-     border-color:darkgrey;
-    padding: 20px 20px 20px 20px;
-  }
-.card:hover{
-    box-shadow: 2px 3px 11px grey;
-    cursor:text;
-}
-.card-title{
-    align-self: centre; 
-   
-}
-
-.card-content{
-    text-align: center;
-}
 
 .footer{
-    background: #000066;
+    background:#201A17;
     color:azure;
     width: 100%;
     min-width: 30px;
     height: auto;
     padding: 40px 20px 10px 10px;
+	overflow: hidden;
 }
 
 .footer-content{
     font-family: "Open Sans";
-    max-height: auto;
+    width: 60vw;
+	height: auto;
     display: flex;
     color: white;
+	flex-wrap: wrap;
     text-align: center; 
 }
 .footer-section{
-    flex: 2;
+    width: 60%;
+	margin-left: 59.px;
+	align-items:flex-end;
+	flex: 10;
     padding: 2vw;
     text-align: center;   
 }
@@ -136,10 +193,37 @@ h3 {
     color:darkgrey;
     height: 8vh;
     text-align: center;
+	overflow: hidden;
 }
-.useful-links .a{
-    color: blue;
+
+
+@media(min-width:981px){
+	.grid{
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
-.useful-links .a:visited{
-    color: blue;
+@media (min-width:661px) and (max-width:980px)){
+	
+	.grid{
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		padding: 20%;
+		box-sizing: border-box;
+}
+}
+@media (max-width:660px){
+	.grid{
+		
+		grid-template-columns: repeat(1, 1fr);
+		padding: 15%;
+		box-sizing: content-box;
+		grid-row-gap: 30px;
+	}
+	.grid> article{
+		text-align: center;
+		
+	}
+	.footer-content{
+		text-align: center;
+	}
 }

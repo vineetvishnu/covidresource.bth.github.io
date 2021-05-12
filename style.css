@@ -91,6 +91,7 @@ h3 {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: centre;
+	background-attachment: fixed;
     overflow: hidden;
 }
 

@@ -222,10 +222,10 @@ a:active{
 		display: flex;
 		flex-wrap:wrap;
 		padding: 20%;
-		
+		background-color: blue;
 }
 }
-@media (max-width:660px){
+@media (max-width:560px){
 	.grid{
 		margin:2%;
 		grid-template-columns: repeat(1, 1fr);

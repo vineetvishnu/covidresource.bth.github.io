@@ -220,8 +220,8 @@ a:active{
 	.grid{
 		margin:0;
 		grid-template-columns: repeat(2, 1fr);
-		padding: 20%;
-		background-color: blue;
+		padding: 15%;
+		
 }
 }
 @media (max-width:425px){

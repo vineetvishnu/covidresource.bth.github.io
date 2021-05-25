@@ -167,16 +167,21 @@ h3 {
 	  animation-play-state:paused;
 }
 a:link{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 
 a:hover{
 	color: white;
+	
 }
 a:active{
 	color:cornsilk;
+}
+a:visited{
+	color: white;
+	text-decoration: none;
 }
 /***Footer***/
 

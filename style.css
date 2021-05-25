@@ -7,7 +7,7 @@ html,body {
     font-size: 1.1em;
     line-height: 1.5;
     text-align: left;
-	background: #B6B6BE;
+	background: #e8ebff;
   }
 /***Navigation***/
 
@@ -109,7 +109,7 @@ h3 {
 .grid > article{
 	background:#ECEEEB;
 	border: none;
-	box-shadow: 2px 2px 6px 0px;
+	box-shadow: 2px 2px 6px 3px gray;
 	border-radius: 4px;
 	text-align: center;
 	width: 250px;
@@ -118,7 +118,7 @@ h3 {
 
 .grid> article:hover{
 	transform: translateY(8px);
-	box-shadow: 2px 2px 16px 2px;
+	box-shadow: 2px 2px 16px 10px gray;
 	cursor: text;
 }
 .grid> article img{
@@ -140,22 +140,32 @@ h3 {
 	font-family: Algeria, serif;
 	font-style: italic;
 }
+
+
+@keyframes bgcolor{
+	0% {background-color: #ab4ba8;}
+	25% {background-color: #702e56;}
+	50% {background-color:#702e2e;}
+	75% {background-color: #797a5b;}
+	100% {background-color: #ab4ba8;}
+}
   .card-content> button {
     margin-bottom: auto;
-    background-color: #DAAEBA;
-    color: black;
+    animation-name: bgcolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    color: white;
     padding: 6px;
-	width: 200px;
+    width: 200px;
     text-align: center;
     border-style: none;
     border-radius: 4px;
     cursor: pointer;
   }
 
-  .card-content> button:hover {
-    background: #EB2258;
-    color: white;
-  }
+ .card-content> button:hover{
+	  animation-play-state:paused;
+}
 a:link{
 	color: black;
 	text-decoration: none;

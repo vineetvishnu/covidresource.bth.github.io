@@ -209,13 +209,13 @@ a:active{
 }
 
 
-@media(min-width:981px){
+@media(min-width:941px){
 	.grid{
 		
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-@media (min-width:426px) and (max-width:768px){
+@media (min-width:426px) and (max-width:940px){
 	
 	.grid{
 		margin:0;

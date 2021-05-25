@@ -25,11 +25,8 @@ html,body {
 .nav li a{
     display: block;
     border:solid;
-    border-top-width: 0;
-    border-right-width: 0.1;
-    border-left-width: 0;
-    border-bottom-width: 0;
-    border-right-color: white;
+    border: 0.1px inset white;
+    border-radius: 8px;   
     color: floralwhite;
     text-align: center;
     padding: 14px 16px;

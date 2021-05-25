@@ -135,10 +135,11 @@ h3 {
 .card-content{
 	padding: 0 20px 20px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Newsreader:wght@200&display=swap');
 .card-content> h3{
 	
-	font-family: Algeria, serif;
-	font-style: italic;
+	font-family: 'Newsreader', serif;
+	
 }
 
 

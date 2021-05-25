@@ -215,7 +215,7 @@ a:active{
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-@media (min-width:426px) and (max-width:980px){
+@media (min-width:660px) and (max-width:980px){
 	
 	.grid{
 		margin:0;
@@ -224,7 +224,7 @@ a:active{
 		
 }
 }
-@media (max-width:425px){
+@media (max-width:661px){
 	.grid{
 		margin:2%;
 		grid-template-columns: repeat(1, 1fr);

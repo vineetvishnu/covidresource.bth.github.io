@@ -215,14 +215,14 @@ a:active{
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
-@media (min-width:661px) and (max-width:980px)){
+@media  (max-width:768px)){
 	
 	.grid{
 		margin:0;
 		grid-template-rows: repeat(3, 1fr);
 		grid-template-columns: repeat(2, 1fr);
 		padding: 20%;
-		box-sizing: border-box;
+		
 }
 }
 @media (max-width:660px){

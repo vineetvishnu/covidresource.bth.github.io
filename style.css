@@ -17,6 +17,7 @@ html,body {
     padding: 0;
     overflow-x: hidden;
     background-color: #201A17;
+	border-radius: 5px;
 }
 .nav li{
     float: left;
@@ -36,9 +37,12 @@ html,body {
 }
 .nav li a:hover:not(.active){
     background-color: #3E3936;
+	border-radius:5px;
 }
 .active{
     background-color: #BFA69B;
+    border-radius:5px;
+}
 }
 @import url('https://fonts.googleapis.com/css2?family=Inconsolatawdth,wght@147.6,394&display=swap');
 
@@ -49,7 +53,7 @@ h1{
     padding-top: 20px;
     padding-bottom: 1px;
     font-family: Inconsolata, monospace;
-	font-size: 70;
+    font-size: 70;
 }
 h2{
     text-align: center;
@@ -85,14 +89,14 @@ h3 {
 .header{
 	color: white;
 	text-shadow: 8px 8px 8px 8px;
-    min-height: 2vh;
-    min-width: 8vw;
+        min-height: 2vh;
+        min-width: 8vw;
 	background-image: url(Covidearth.jpeg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: centre;
 	background-attachment: fixed;
-    overflow: hidden;
+        overflow: hidden;
 }
 
 /**Card Designing**/
@@ -177,35 +181,41 @@ a:active{
     min-width: 30px;
     height: auto;
     padding: 40px 20px 10px 10px;
-	overflow: hidden;
+    overflow-x: hidden;
+    border-radius: 18px;
+    border: 2px outset aliceblue;
 }
 
 .footer-content{
     font-family: "Open Sans";
     width: 60vw;
-	height: auto;
+    height: auto;
     display: flex;
     color: white;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     text-align: center; 
 }
 .footer-section{
     width: 60%;
-	margin-left: 59.px;
-	align-items:flex-end;
-	flex: 10;
+    margin-left: 59.px;
+    align-items:flex-end;
+    flex: 10;
     padding: 2vw;
     text-align: center;   
 }
 .footer-bottom{ 
+    margin-top: 8px;
     left: 0;
     bottom: 0;
     min-width: 30vw;
-    background: grey;
+    background-color: #29231f;
     color:darkgrey;
     height: 8vh;
     text-align: center;
-	overflow: hidden;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px outset aliceblue;
+    padding-top: 10px;
 }
 
 

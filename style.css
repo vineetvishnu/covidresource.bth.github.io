@@ -42,15 +42,16 @@ html,body {
 }
 }
 @import url('https://fonts.googleapis.com/css2?family=Inconsolatawdth,wght@147.6,394&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 h1{
-    line-height: 0px;
+    text-shadow: 2px 5px 5px black;
     text-align: center; 
     font-style:normal;
     padding-top: 20px;
     padding-bottom: 1px;
-    font-family: Inconsolata, monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 70;
+    font-weight: 354;
 }
 h2{
     text-align: center;
@@ -83,18 +84,18 @@ h3 {
 /**Header**/
 
 
+
 .header{
-	text-align: centre;
 	color: white;
 	text-shadow: 8px 8px 8px 8px;
-        min-height: 2vh;
-        min-width: 8vw;
+    	min-height: 2vh;
+   	min-width: 8vw;
 	background-image: url(Covidearth.jpeg);
+	background-attachment: fixed;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: centre;
-	background-attachment: fixed;
-        overflow: hidden;
+    	overflow: hidden;
 }
 
 /**Card Designing**/
@@ -145,11 +146,11 @@ h3 {
 
 
 @keyframes bgcolor{
-	0% {background-color: #ab4ba8;}
+	0% {background-color: red;}
 	25% {background-color: #702e56;}
 	50% {background-color:#702e2e;}
-	75% {background-color: #797a5b;}
-	100% {background-color: #ab4ba8;}
+	75% {background-color: blue;}
+	100% {background-color: #d12b19;}
 }
   .card-content> button {
     margin-bottom: auto;

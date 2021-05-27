@@ -7,7 +7,7 @@ html,body {
     font-size: 1.1em;
     line-height: 1.5;
     text-align: cantre;
-	background: #e8ebff;
+    background: midnightblue;
   }
 /***Navigation***/
 
@@ -84,6 +84,7 @@ h3 {
 
 
 .header{
+	text-align: centre;
 	color: white;
 	text-shadow: 8px 8px 8px 8px;
         min-height: 2vh;
@@ -194,7 +195,7 @@ a:visited{
     min-width: 30px;
     height: auto;
     padding: 40px 20px 10px 10px;
-    overflow-x: hidden;
+    overflow: hidden;
     border-radius: 18px;
     border: 2px outset aliceblue;
 }

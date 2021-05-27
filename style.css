@@ -191,11 +191,9 @@ a:visited{
 .footer{
     background:#201A17;
     color:azure;
-    width: 100%;
-    min-width: 30px;
+    min-width: 3vw;
     height: auto;
     padding: 40px 20px 10px 10px;
-    overflow: hidden;
     border-radius: 18px;
     border: 2px outset aliceblue;
 }
